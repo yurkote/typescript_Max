@@ -3,10 +3,7 @@ import Todo from "./components/models/todo";
 import Todos from "./components/Todos";
 
 function App() {
-  const todos = [
-    new Todo("1", "Learn React"),
-    new Todo("2", "Learn TypeScript"),
-  ];
+  const todos = [new Todo("Learn React"), new Todo("Learn TypeScript")];
   return (
     <>
       <div>
